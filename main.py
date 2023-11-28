@@ -76,6 +76,10 @@ if __name__ == "__main__":
                 print('\t' * 3 + "Suppression de l'historique")
                 print( 80 * '*')
                 history = []
+            
             case '4':
                 print("Fin du programme...")
                 exit(0)
+            
+            case _:
+                print("Option inconnue")
